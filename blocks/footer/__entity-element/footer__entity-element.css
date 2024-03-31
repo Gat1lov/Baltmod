@@ -10,10 +10,10 @@
 
 @media screen and (max-width: 1366px) {
     .footer__entity-element {
-        margin: 0 25px;
+        margin: 0 10px 15px;
     }
 
     .footer__entity-element:last-of-type {
-        margin: 0 25px;
+        margin: 0 10px;
     }
 }

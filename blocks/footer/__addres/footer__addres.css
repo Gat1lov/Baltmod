@@ -6,6 +6,10 @@
 
 @media screen and (max-width: 1366px) {
     .footer__addres {
-        margin: 10px 25px;
+        margin: 10px;
+    }
+
+    .footer__addres:last-of-type{
+        margin-bottom: 0;
     }
 }

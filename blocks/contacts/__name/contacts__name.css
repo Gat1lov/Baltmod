@@ -3,6 +3,10 @@
     font-size: 20px;
 }
 
+.contacts__name:last-of-type{
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1100px) {
     .contacts__name {
         font-size: 15px;

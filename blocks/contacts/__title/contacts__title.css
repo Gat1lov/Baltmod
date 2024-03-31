@@ -1,4 +1,5 @@
 .contacts__title {
+    margin: 0;
     font-family: 'monsBold', sans-serif;
     font-size: 80px;
 }
@@ -6,5 +7,12 @@
 @media screen and (max-width: 1366px) {
     .contacts__title {
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .contacts {
+        display: block;
+        margin: 0 0 0 25px;
     }
 }
