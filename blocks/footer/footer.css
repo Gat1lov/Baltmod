@@ -1,0 +1,22 @@
+@import url(./__text/footer__text.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__city/footer__city.css);
+@import url(./__title/footer__title.css);
+@import url(./__addres/footer__addres.css);
+@import url(./__entity-element/footer__entity-element.css);
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0;
+    padding-top: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 8px 8px 0 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+}

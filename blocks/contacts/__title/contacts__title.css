@@ -1,0 +1,10 @@
+.contacts__title {
+    font-family: 'monsBold', sans-serif;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 1366px) {
+    .contacts__title {
+        font-size: 50px;
+    }
+}

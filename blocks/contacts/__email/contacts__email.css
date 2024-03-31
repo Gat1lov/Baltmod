@@ -1,0 +1,15 @@
+.contacts__email {
+    margin: 10px 0 0;
+    color: inherit;
+    font-family: 'monsBold', sans-serif;
+    font-size: 15px;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.3s ease-in-out, text-decoration-thickness 0.3s ease-in-out;
+}
+
+.contacts__email:hover {
+    text-decoration-line: underline;
+    text-decoration-style: "solid";
+    text-decoration-color: #FFBF00;
+    text-decoration-thickness: 5px;
+}

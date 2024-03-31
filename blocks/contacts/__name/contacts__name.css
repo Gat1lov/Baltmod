@@ -1,0 +1,10 @@
+.contacts__name {
+    font-family: 'monsReg', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .contacts__name {
+        font-size: 15px;
+    }
+}

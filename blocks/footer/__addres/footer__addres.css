@@ -1,0 +1,11 @@
+.footer__addres {
+    margin: 0 0 5px;
+    font-family: 'monsLig', sans-serif;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer__addres {
+        margin: 10px 25px;
+    }
+}

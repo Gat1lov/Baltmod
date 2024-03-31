@@ -1,0 +1,11 @@
+.footer__title {
+    margin: 0 0 15px;
+    font-family: 'monsBold', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer__title {
+        margin: 20px 25px 0;
+    }
+}

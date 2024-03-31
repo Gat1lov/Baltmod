@@ -1,0 +1,13 @@
+.projects__image-mini {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 670px) {
+    .projects__images-mini {
+        width: 100%;
+        height: 100%;
+    }
+}

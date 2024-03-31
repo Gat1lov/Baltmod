@@ -1,0 +1,18 @@
+@import url(./__title/projects__title.css);
+@import url(./__element/projects__element.css);
+@import url(./__element/_white/projects__element_white.css);
+@import url(./__images-box/projects__images-box.css);
+@import url(./__image/projects__image.css);
+@import url(./__image/_shadow/projects__image_shadow.css);
+@import url(./__images-box-mini/projects__images-box-mini.css);
+@import url(./__image-mini/projects__image-mini.css);
+@import url(./__text-box/projects__text-box.css);
+@import url(./__text-title/projects__text-title.css);
+@import url(./__text-description/projects__text-description.css);
+@import url(./__text-location/projects__text-location.css);
+
+.projects {
+    margin: 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid rgb(169, 167, 167);
+}

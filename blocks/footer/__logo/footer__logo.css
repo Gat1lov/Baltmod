@@ -1,0 +1,12 @@
+.footer__logo {
+    margin: 0;
+    font-family: 'monsBlack', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer__logo {
+        font-size: 35px;
+    }
+}

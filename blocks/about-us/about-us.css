@@ -1,0 +1,24 @@
+@import url(./__image/about-us__image.css);
+@import url(./__text/about-us__text.css);
+@import url(./__title/about-us__title.css);
+@import url(./__hover/about-us__hover.css);
+@import url(./__phrases/about-us__phrases.css);
+
+.about-us {
+    margin: 50px 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-us {
+        margin: 25px 0 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .about-us {
+        display: block;
+        text-align: center;
+    }
+}

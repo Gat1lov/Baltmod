@@ -1,0 +1,19 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/about-us/about-us.css);
+
+@import url(../blocks/projects/projects.css);
+
+@import url(../blocks/contacts/contacts.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/popup/popup.css);
+
+@import url(../blocks/scroll-button/scroll-button.css);

@@ -1,0 +1,20 @@
+@import url(./__title/contacts__title.css);
+@import url(./__element/contacts__element.css);
+@import url(./__name/contacts__name.css);
+@import url(./__number/contacts__number.css);
+@import url(./__email/contacts__email.css);
+@import url(./__whatsapp/contacts__whatsapp.css);
+@import url(./__icon/contacts__icon.css);
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    .contacts {
+        display: block;
+        margin: 0 0 0 25px;
+    }
+}

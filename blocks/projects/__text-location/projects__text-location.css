@@ -1,0 +1,17 @@
+.projects__text-location {
+    margin: 0;
+    border: 0;
+    border-radius: 8px;
+    width: 95%;
+    height: 350px;
+}
+
+@media screen and (max-width: 1670px) {
+    .projects__text-location {
+        margin-bottom: -5px;
+        border-radius: 0;
+        width: 100%;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}

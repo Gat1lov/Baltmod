@@ -1,0 +1,15 @@
+.projects__title {
+    margin: 0;
+    padding-left: 25px;
+    line-height: 50px;
+    font-family: 'monsBold', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(169, 167, 167);
+}
+
+@media screen and (max-width: 1366px) {
+    .projects__title {
+        font-size: 30px;
+    }
+}

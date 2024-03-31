@@ -1,0 +1,19 @@
+.footer__entity-element {
+    margin: 0 0 5px;
+    font-family: 'monsLig', sans-serif;
+    font-size: 15px;
+}
+
+.footer__entity-element:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer__entity-element {
+        margin: 0 25px;
+    }
+
+    .footer__entity-element:last-of-type {
+        margin: 0 25px;
+    }
+}

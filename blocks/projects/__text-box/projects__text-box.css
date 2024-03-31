@@ -1,0 +1,9 @@
+.projects__text-box {
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 1670px) {
+    .projects__text-box {
+        max-width: 100%;
+    }
+}

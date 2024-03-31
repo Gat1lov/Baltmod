@@ -1,0 +1,35 @@
+.header__button {
+    margin: 0 50px 0 0;
+    cursor: pointer;
+    font-family: 'monsReg', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 1px white;
+    transition: transform .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.header__button:hover {
+    transform: translateY(-5px);
+    border-color: transparent;
+}
+
+
+.header__button:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .header__button {
+        font-size: 18px;
+        margin: 0 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header__button {
+        font-size: 15px;
+        margin: 0 0 10px;
+    }
+}

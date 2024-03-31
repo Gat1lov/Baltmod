@@ -1,0 +1,31 @@
+@import url(./__container/scroll-button__container.css);
+@import url(./__image/scroll-button__image.css);
+
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.scroll-button.show {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

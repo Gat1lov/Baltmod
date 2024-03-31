@@ -1,0 +1,16 @@
+.projects__element {
+    margin: 20px 0 0;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0b6ad2;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1670px) {
+    .projects__element {
+        display: block;
+        padding: 30px 0 0;
+    }
+}

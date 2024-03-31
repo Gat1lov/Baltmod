@@ -1,0 +1,13 @@
+.header__city {
+    margin: 0 0 0 15px;
+    font-size: 15px;
+    color: white;
+    font-family: 'monsLig', sans-serif;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .header__city {
+        margin: 0;
+    }
+}

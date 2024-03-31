@@ -1,0 +1,19 @@
+@import url(./__text/header__text.css);
+@import url(./__logo/header__logo.css);
+@import url(./__city/header__city.css);
+@import url(./__buttons/header__buttons.css);
+@import url(./__button/header__button.css);
+@import url(./__link/header__link.css);
+
+.header {
+    background-color: #0b6ad2;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 8px 8px;
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        justify-content: space-around;
+    }
+}

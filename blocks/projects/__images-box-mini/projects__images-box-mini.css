@@ -1,0 +1,20 @@
+.projects__images-box-mini {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(1, 100px);
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 670px) {
+    .projects__images-box-mini {
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .projects__images-box-mini {
+        grid-template-columns: repeat(2, 150px);
+    }
+}

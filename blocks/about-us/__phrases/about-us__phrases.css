@@ -1,0 +1,17 @@
+.about-us__phrases {
+  max-width: 800px;
+  margin: 0 0 10px;
+  font-family: 'monsReg', sans-serif;
+  font-size: 18px;
+  color: #343A40;
+}
+
+.about-us__phrases:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .about-us__phrases {
+    font-size: 15px;
+  }
+}

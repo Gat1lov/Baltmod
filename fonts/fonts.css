@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'monsLig';
+    src: url(./Montserrat-Light.woff2) format("woff2"),
+        url(./Montserrat-Light.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'monsReg';
+    src: url(./Montserrat-Regular.woff2) format("woff2"),
+        url(./Montserrat-Regular.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'monsBold';
+    src: url(./Montserrat-Bold.woff2) format("woff2"),
+        url(./Montserrat-Bold.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'monsBlack';
+    src: url(./Montserrat-Black.woff2) format("woff2"),
+        url(./Montserrat-Black.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+}

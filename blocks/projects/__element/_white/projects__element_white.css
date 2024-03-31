@@ -1,0 +1,5 @@
+.projects__element_white {
+    background-color: white;
+    color: black;
+    flex-direction: row-reverse;
+}
