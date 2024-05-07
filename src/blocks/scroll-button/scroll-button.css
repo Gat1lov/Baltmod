@@ -2,6 +2,7 @@
 @import url(./__image/scroll-button__image.css);
 
 .scroll-button {
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -13,6 +14,7 @@
 }
 
 .scroll-button.show {
+    display: block;
     animation: blink 2s infinite;
 }
 

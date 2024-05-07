@@ -1,0 +1,13 @@
+.popup__nav-button_right {
+    height: 55px;
+    width: 30px;
+    background-image: url(../../../../images/right-button.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.popup__nav-button_right:hover {
+    transform: scale(1.1);
+}

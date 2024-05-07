@@ -5,6 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="<%=require('./favicon.png')%>">
     <title>БАЛТМОД</title>
 
 </head>
@@ -51,8 +52,13 @@
             <h2 class="projects__title">Проекты</h2>
             <div class="projects__element">
                 <div class="projects__images-box">
-                    <img class="projects__image" src="<%=require('./images/chasovnya.jpg')%>" alt="Часовня1">
-                    <div class="projects__images-box-mini" id="chasovnya">
+                    <img class="projects__image" id="chasovnya" src="<%=require('./images/chasovnya.jpg')%>" alt="Часовня1">
+                    <div class="projects__dots-box" id="chasovnya-dots">
+                        <button class="projects__dot-button projects__dot-button_active" data-image="<%=require('./images/chasovnya.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/chasovnya2.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/chasovnya3.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/chasovnya4.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/chasovnya5.jpg')%>"></button>
                     </div>
                 </div>
                 <div class="projects__text-box">
@@ -69,8 +75,13 @@
 
             <div class="projects__element projects__element_white">
                 <div class="projects__images-box">
-                    <img class="projects__image projects__image_shadow" src="<%=require('./images/dinopark.jpg')%>" alt="Динопарк1">
-                    <div class="projects__images-box-mini" id="dinopark">
+                    <img class="projects__image projects__image_shadow" id="dinopark" src="<%=require('./images/dinopark.jpg')%>" alt="Динопарк1">
+                    <div class="projects__dots-box" id="dinopark-dots">
+                        <button class="projects__dot-button projects__dot-button_active" data-image="<%=require('./images/dinopark.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/dinopark2.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/dinopark3.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/dinopark4.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/dinopark5.jpg')%>"></button>
                     </div>
                 </div>
                 <div class="projects__text-box">
@@ -86,8 +97,13 @@
 
             <div class="projects__element">
                 <div class="projects__images-box">
-                    <img class="projects__image" src="<%=require('./images/sport.jpg')%>"" alt="Спортзал1">
-                    <div class="projects__images-box-mini" id="sport">
+                    <img class="projects__image" id="sport" src="<%=require('./images/sport.jpg')%>"" alt="Спортзал1">
+                    <div class="projects__dots-box" id="sport-dots">
+                        <button class="projects__dot-button projects__dot-button_active" data-image="<%=require('./images/sport.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/sport2.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/sport3.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/sport4.jpg')%>"></button>
+                        <button class="projects__dot-button" data-image="<%=require('./images/sport5.jpg')%>"></button>
                     </div>
                 </div>
                 <div class="projects__text-box">
@@ -153,7 +169,9 @@
     <div class="popup popup_type_image">
         <div class="popup__content popup__content_content_image">
             <button type="button" class="popup__close"></button>
+            <button type="button" class="popup__nav-button popup__nav-button_left" id="prevButton"></button>
             <img src="" alt="" class="popup__image">
+            <button type="button" class="popup__nav-button popup__nav-button_right" id="nextButton"></button>
         </div>
     </div>
 

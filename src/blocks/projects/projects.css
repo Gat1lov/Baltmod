@@ -4,12 +4,14 @@
 @import url(./__images-box/projects__images-box.css);
 @import url(./__image/projects__image.css);
 @import url(./__image/_shadow/projects__image_shadow.css);
-@import url(./__images-box-mini/projects__images-box-mini.css);
 @import url(./__image-mini/projects__image-mini.css);
 @import url(./__text-box/projects__text-box.css);
 @import url(./__text-title/projects__text-title.css);
 @import url(./__text-description/projects__text-description.css);
 @import url(./__text-location/projects__text-location.css);
+@import url(./__dot-button/projects__dot-button.css);
+@import url(./__dot-button/_active/projects__dot-button_active.css);
+@import url(./__dots-box/projects__dots-box.css);
 
 .projects {
     margin: 50px 0 0;

@@ -1,0 +1,12 @@
+export const dotButtons = document.querySelectorAll('.projects__dot-button');
+export const yuri = document.getElementById('buttonYuri');
+export const aleksey = document.getElementById('buttonAleksey');
+export const scrollButton = document.getElementById('scrollButton');
+export const images = document.querySelectorAll(".projects__image");
+export const buttons = document.querySelectorAll('.header__button');
+export const popup = document.querySelector(".popup");
+export const popupImage = document.querySelector(".popup__image");
+export const popupCloseButton = document.querySelector(".popup__close");
+export const projects= document.querySelector(".projects");
+export const prevButton = document.getElementById('prevButton');
+export const nextButton = document.getElementById('nextButton');

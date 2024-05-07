@@ -1,0 +1,7 @@
+.projects__dot-button{
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}

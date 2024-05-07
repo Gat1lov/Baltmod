@@ -1,5 +1,5 @@
-.projects__images-box-mini {
-    display: grid;
+.projects__dots-box {
+    display: flex;
     grid-template-columns: repeat(4, 150px);
     grid-template-rows: repeat(1, 100px);
     column-gap: 5px;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 670px) {
-    .projects__images-box-mini {
+    .projects__dots-box {
         grid-template-columns: repeat(2, 200px);
     }
 }
 
 @media screen and (max-width: 422px) {
-    .projects__images-box-mini {
+    .projects__dots-box {
         grid-template-columns: repeat(2, 150px);
     }
 }

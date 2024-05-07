@@ -1,0 +1,8 @@
+.popup__nav-button {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
